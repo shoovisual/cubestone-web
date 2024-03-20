@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Stone Sans';
+    src: url('StoneSansBoldItalic.woff2') format('woff2'),
+        url('StoneSansBoldItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stone Sans';
+    src: url('StoneSansBold.woff2') format('woff2'),
+        url('StoneSansBold.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stone Sans';
+    src: url('StoneSansMediumItalic.woff2') format('woff2'),
+        url('StoneSansMediumItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stone Sans';
+    src: url('StoneSansMedium.woff2') format('woff2'),
+        url('StoneSansMedium.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stone Sans Semi';
+    src: url('StoneSansSemiBooldItalic.woff2') format('woff2'),
+        url('StoneSansSemiBooldItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stone Sans Semi';
+    src: url('StoneSansSemiBoold.woff2') format('woff2'),
+        url('StoneSansSemiBoold.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
