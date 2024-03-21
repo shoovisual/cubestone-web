@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1080 582.7" style="enable-background:new 0 0 1080 582.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#E6F4FF;}
+	.st2{fill:#CE2127;}
+	.st3{fill:#203469;}
+</style>
+<g id="Layer_2" class="st0">
+	<rect y="32.3" class="st1" width="1080" height="518"/>
+</g>
+<g id="Layer_1">
+	<g id="Layer_1_00000065060845087473561450000000582572727705328800_">
+	</g>
+	<div  id="divScriptsUsed" style="display: none" xmlns=""></div>
+	<script  id="globalVarsDetection" src="moz-extension://5829351e-a71b-4d2f-b1c3-cc064e17af11/js/wrs_env.js" xmlns=""></script>
+	<rect x="0" y="547.7" class="st2" width="1045" height="35"/>
+	<rect x="0" y="0" class="st3" width="1080" height="35"/>
+	
+		<rect x="-245.3" y="280.3" transform="matrix(6.739326e-11 -1 1 6.739326e-11 -280.3358 315.3358)" class="st2" width="525.7" height="35"/>
+	<polygon class="st3" points="1045,17.5 1045,547.7 1045,547.7 1045,582.7 1080,547.7 1080,547.7 1080,17.5 	"/>
+	<text transform="matrix(1 0 0 1 569.5271 -213.1898)"><tspan x="0" y="0" class="st3" style="font-family:'HelveticaNeueLTPro-Md'; font-size:49.7533px;">Small Business</tspan><tspan x="0" y="59.7" class="st3" style="font-family:'HelveticaNeueLTPro-Md'; font-size:49.7533px;">Administration</tspan></text>
+	<g>
+		<path class="st3" d="M364.8,315.8c0,19.4,15.1,26.9,32.2,26.9c11.2,0,28.4-3.3,28.4-18.2c0-15.9-22-18.2-43.3-24.1
+			c-21.6-5.3-43.5-14.5-43.5-41.4c0-30,28.2-44.1,54.5-44.1c30.4,0,58.4,13.3,58.4,46.9h-31c-1-17.3-13.3-22-28.8-22
+			c-10.2,0-22,4.3-22,16.5c0,11.2,6.9,12.9,43.5,22c10.8,2.4,43.3,9.6,43.3,42.5c0,26.7-20.8,46.7-60.6,46.7
+			c-32.2,0-62.7-15.9-62-51.8H364.8z"/>
+		<path class="st3" d="M475.4,218.5H544c27.8,0,46.5,9,46.5,36.1c0,14.5-6.9,24.1-19.8,30.4c18,5.1,26.7,18.8,26.7,36.9
+			c0,29.6-25.1,42.2-51.4,42.2h-70.6V218.5z M507.4,277.5h32.5c11.4,0,19.6-5.1,19.6-17.3c0-13.7-10.6-16.7-22-16.7h-30V277.5z
+			 M507.4,339.3h34.3c12.5,0,23.7-4.1,23.7-19.2c0-14.9-9.2-20.8-23.1-20.8h-34.9V339.3z"/>
+		<path class="st3" d="M691.7,218.5h-32.9l-55.3,145.7H636l38.8-109.8h0.4L713,364.2h33.3L691.7,218.5z"/>
+	</g>
+</g>
+</svg>
