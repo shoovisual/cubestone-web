@@ -75,6 +75,7 @@
     --main-bg-color: #4399d4;
     --sv-color: #000;
     --quickbook: #2ca01c;
+    --tally: #3069b1;
 }
 
 .bg-off-white {
@@ -93,6 +94,9 @@ body {
     background-color: var(--quickbook);
 }
 
+.bg-tally {
+    background-color: var(--tally);
+}
 /* Preset */
 .font-p {
     font-size: 16px;
