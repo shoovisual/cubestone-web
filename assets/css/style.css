@@ -74,6 +74,7 @@
     --btn-color: #333;
     --main-bg-color: #4399d4;
     --sv-color: #000;
+    --quickbook: #2ca01c;
 }
 
 .bg-off-white {
@@ -86,6 +87,10 @@ body {
     overflow-x: hidden;
     font-family: "stone sans", sans-serif;
     overflow-x: hidden !important;
+}
+
+.bg-quickbook {
+    background-color: var(--quickbook);
 }
 
 /* Preset */
@@ -978,10 +983,10 @@ section {
     background-color: var(--primary-color);
     transition: 0.3s ease-in-out;
     padding: 15px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .nav-tabs li {
-    padding: 10px 15px;
+    padding: 10px 20px;
     color: #fff;
     transition: 0.3s ease-in-out;
     font-size: 16px;
