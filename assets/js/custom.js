@@ -42,7 +42,7 @@ $(document).ready(function () {
         slidesToShow: 7,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 6000,
+        autoplaySpeed: 4000,
         arrows: false,
         lazyLoad: "ondemand",
         dots: false,
@@ -63,13 +63,30 @@ $(document).ready(function () {
         ],
     });
 });
-
-const textContainer = document.getElementById("text-container");
-
-let currentIndex = 0;
-const words = ["Brand", "Business", "Company"];
-
-setInterval(() => {
-    currentIndex = (currentIndex + 1) % words.length;
-    textContainer.textContent = words[currentIndex];
-}, 2000); // Change interval in milliseconds (2 seconds in this example)
+// logo-slide
+$(document).ready(function () {
+    $(".team-slider").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 6000,
+        arrows: false,
+        lazyLoad: "ondemand",
+        dots: false,
+        pauseOnHover: false,
+        responsive: [
+            {
+                breakpoint: 820,
+                settings: {
+                    slidesToShow: 2,
+                },
+            },
+            {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 1,
+                },
+            },
+        ],
+    });
+});

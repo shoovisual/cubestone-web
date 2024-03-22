@@ -74,6 +74,8 @@
     --btn-color: #333;
     --main-bg-color: #4399d4;
     --sv-color: #000;
+    --quickbook: #2ca01c;
+    --tally: #3069b1;
 }
 
 .bg-off-white {
@@ -88,6 +90,13 @@ body {
     overflow-x: hidden !important;
 }
 
+.bg-quickbook {
+    background-color: var(--quickbook);
+}
+
+.bg-tally {
+    background-color: var(--tally);
+}
 /* Preset */
 .font-p {
     font-size: 16px;
@@ -978,10 +987,10 @@ section {
     background-color: var(--primary-color);
     transition: 0.3s ease-in-out;
     padding: 15px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .nav-tabs li {
-    padding: 10px 15px;
+    padding: 10px 20px;
     color: #fff;
     transition: 0.3s ease-in-out;
     font-size: 16px;
@@ -1745,94 +1754,60 @@ section {
 --------------------------------------------------------------*/
 .team .member {
     margin-bottom: 20px;
+    margin: 0 10px;
+    padding: 20px;
     position: relative;
     overflow: hidden;
+    height: 520px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border-radius: 5px;
 }
 
-.team .member .member-info {
-    opacity: 0;
-    position: absolute;
-    bottom: 0;
-    /* top: 0; */
-    left: 0;
-    right: 0;
-    height: 100px;
-    transition: 0.2s;
+.member-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
-
 .team .member .member-info-content {
-    position: absolute;
-    left: 50px;
-    right: 0;
-    bottom: 0;
-    transition: bottom 0.4s;
+    margin-left: 20px;
 }
-
 .team .member .member-info-content h4 {
     font-weight: 600;
     margin-bottom: 2px;
     font-size: 18px;
-    color: #fff;
 }
 
 .team .member .member-info-content span {
-    /* font-style: italic; */
+    padding: 10px 0;
     display: block;
     font-size: 16px;
-    color: #fff;
 }
 
-.team .member .social {
-    position: absolute;
-    left: -50px;
-    top: 0;
-    bottom: 0;
-    width: 50px;
-    transition: left ease-in-out 0.3s;
-    background: rgba(11, 35, 65, 0.5);
-    text-align: center;
-}
-
-.team .member .social a {
-    transition: color 0.3s;
+.team .member p {
     display: block;
-    color: #fff;
-    margin-top: 15px;
+    font-size: 11px;
+    text-align: justify;
+    font-weight: 100;
 }
-
-.team .member .social a:hover {
-    color: var(--secondary-color);
-}
-
-.team .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
-}
-
-.team .member:hover .member-info {
-    background: var(--primary-color);
-    opacity: 1;
-    transition: 0.4s;
-}
-
 .team .member:hover img {
     transform: scale(1.05);
     transition: 0.3s;
 }
 
-.team .member img {
+.team .member-img {
     transition: 0.3s;
+    width: 100px;
 }
-
-.team .member:hover .member-info-content {
-    bottom: 30px;
-    transition: bottom 0.4s;
+.team-slider {
+    position: relative;
 }
-
-.team .member:hover .social {
-    left: 0;
-    transition: left ease-in-out 0.3s;
-}
+/* .team-slider button {
+    position: absolute;
+    top: 0;
+    padding: 0 10px;
+    right: 20px;
+} */
 
 /*--------------------------------------------------------------
 # Pricing
