@@ -1810,7 +1810,7 @@ section {
     padding: 30px;
     position: relative;
     overflow: hidden;
-    height: 400px;
+    height: 450px;
     background-color: var(--off-white);
     /* color: #fff; */
     border-radius: 5px;
@@ -1823,10 +1823,21 @@ section {
     background-color: #fff;
     padding: 10px;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.member-info:hover {
+    /* background-color: var(--primary-color); */
+    /* color: #fff; */
+    transition: 0.3s;
+    box-shadow: 0px 0px 20px #a69bcf36;
+    transform: scale(1.012);
 }
 .team .member .member-info-content {
     margin-left: 20px;
 }
+
 .team .member .member-info-content h4 {
     font-weight: 600;
     margin-bottom: 2px;
@@ -1841,14 +1852,10 @@ section {
 
 .team .member p {
     display: block;
-    font-size: 11px;
+    font-size: 12px;
     text-align: justify;
     line-height: 1.5;
     font-weight: 100;
-}
-.team .member:hover img {
-    transform: scale(1.05);
-    transition: 0.3s;
 }
 
 .team .member-img {
@@ -1874,6 +1881,10 @@ section {
     margin: auto;
     align-items: center;
     align-content: center;
+}
+
+.slick-dots {
+    justify-content: space-around;
 }
 
 .slick-dots li {
@@ -1913,6 +1924,13 @@ section {
 
     .slick-dots li {
         display: none;
+    }
+    .team .member p {
+        display: block;
+        font-size: 11px;
+        text-align: justify;
+        line-height: 1.5;
+        font-weight: 100;
     }
 }
 
