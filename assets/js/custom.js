@@ -66,19 +66,19 @@ $(document).ready(function () {
 // logo-slide
 $(document).ready(function () {
     $(".team-slider").slick({
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 6000,
         arrows: false,
         lazyLoad: "ondemand",
-        dots: false,
+        dots: true,
         pauseOnHover: false,
         responsive: [
             {
                 breakpoint: 820,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 },
             },
             {
