@@ -1903,6 +1903,16 @@ section {
     background-color: var(--primary-color);
     color: #fff;
 }
+.certified {
+    position: relative;
+}
+.certified .member-info-content::after {
+    content: url(../img/sap-badge-2.svg);
+    width: 80px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
 /* .team-slider button {
     position: absolute;
     top: 0;
