@@ -2230,6 +2230,27 @@ section {
 .inner-main {
     margin-top: 12vh;
 }
+
+/*--------------------------------------------------------------
+# chatbot
+--------------------------------------------------------------*/
+.chat-bot i {
+    position: fixed;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 50px;
+    z-index: 655;
+    background-color: #060a2f;
+    font-size: 32px;
+    bottom: 7%;
+    right: 30px;
+    transition: 0.3s;
+}
+
+.chat-bot:hover i {
+    transform: scale(1.0785);
+    transition: 0.3s;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
