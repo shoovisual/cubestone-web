@@ -20,7 +20,7 @@
 
                     "User message: $message. ";
 
-    $to = "design@shoovisual.com";
+    $to = "info@cubestoneconsulting.com";
 
     $headers = "from: $visitor_email";
     $headers = "from: $visitor_email \r\n";
